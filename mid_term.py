@@ -14,3 +14,4 @@ mt_user_payment = pd.read_csv('Data/Midterm_data/userpayment.csv')
 mt_user_profile = pd.read_csv('Data/Midterm_data/userprofile.csv')
 mt_res_othinfo = pd.read_csv('Data/Midterm_data/geoplaces2.csv',encoding='ISO-8859-1')
 
+st.dataframe(mt_rating)
